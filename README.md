@@ -1,7 +1,7 @@
 ArCh/ain & ACASH
 =====================================
 
-ArCh/ain is a fork of the new XDNA-Core blockchain that includes the hashing algorithm of HEX. As such, it is a one for one exact clone of XDNA-Core except for the Max Supply of coins. We felt that XDNA-Core has exactly every feature we were looking for when brain storming our blockchain, ArCh/ain, so we asked ourselves this questions, "Why try and modify or fix something that isn't broken?"
+ArCh/ain is a fork of the new XDNA-Core blockchain that includes the hashing algorithm of HEX. As such, it is a almost an exact one-for-one clone of XDNA-Core except for the Max Supply of coins and a few other required changes to the code inorder to form our very own blockchain. We felt that XDNA-Core has exactly every feature we were looking for when brain storming our blockchain, ArCh/ain, so we asked ourselves this questions, "Why try and modify or fix something that isn't broken?"
 
 ArCh/ain will continue to utilize a hybrid Proof-of-Work/Proof-of-Stake Consensus Algorithm along with having its own Masternodes to scale and strengthen its mainnet. We will also continue to include the awesome features created by the talented dev. team of XDNA-Core: BitGun & Triple Node Technology or T.N.T 
 
@@ -19,7 +19,7 @@ ArCh/ain will continue to utilize a hybrid Proof-of-Work/Proof-of-Stake Consensu
 <tr><td>POS starting block</td><td>1440001</td></tr>
 <tr><td>POS phase duration</td><td>Unlimited</td></tr>
 <tr><td>POS block reward</td><td>57 ACASH lowering by 4 coins every 525600 blocks until block reward is 1 ACASH</td></tr>
-<tr><td>POS block reward distribution</td><td>XDNA's SeeSaw</td></tr>
+<tr><td>POS block reward distribution</td><td>PIVX's SeeSaw</td></tr>
 <tr><td>Estimated ACASH supply during 15 years of POS</td><td>228,000,000</td></tr>
 <tr><td>Premine</td><td>971,712 ACASH (0.7% of POW total supply)</td></tr>
 <tr><td>Blocksize</td><td>1 MB</td></tr>
