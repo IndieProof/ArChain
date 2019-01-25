@@ -1,7 +1,7 @@
 ArCh/ain & ACASH
 =====================================
 
-ArCh/ain is a fork of the new XDNA-Core blockchain that includes the hashing algorithm of HEX. As such, it is a almost an exact one-for-one clone of XDNA-Core except for the Max Supply of coins and a few other required changes to the code inorder to form our very own blockchain. We felt that XDNA-Core has exactly every feature we were looking for when brain storming our blockchain, ArCh/ain, so we asked ourselves this questions, "Why try and modify or fix something that isn't broken?"
+ArCh/ain is a fork of the new XDNA-Core blockchain that includes the hashing algorithm of HEX. As such, it is almost an exact one-for-one clone of XDNA-Core, except for the Max Supply of coins and a few other required changes to the code inorder to form our very own blockchain. We felt that XDNA-Core has exactly every feature we were looking for when brain storming our blockchain, ArCh/ain, so we asked ourselves this question, "Why try and modify or fix something that isn't broken?"
 
 ArCh/ain will continue to utilize a hybrid Proof-of-Work/Proof-of-Stake Consensus Algorithm along with having its own Masternodes to scale and strengthen its mainnet. We will also continue to include the awesome features created by the talented dev. team of XDNA-Core: BitGun & Triple Node Technology or T.N.T 
 
