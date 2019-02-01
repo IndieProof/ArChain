@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "XDNA"
-            VALUE "FileDescription",    "xdnad (OSS daemon/client for XDNA)"
+            VALUE "CompanyName",        "INDIEproof, LLC."
+            VALUE "FileDescription",    "archaind (OSS daemon/client for ArCh/ain)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "xdnad"
+            VALUE "InternalName",       "archaind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "xdnad.exe"
-            VALUE "ProductName",        "xdnad"
+            VALUE "OriginalFilename",   "archaind.exe"
+            VALUE "ProductName",        "archaind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
