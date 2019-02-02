@@ -1,6 +1,6 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/icons">
-        <file alias="xdna">res/icons/xdna.png</file>
+        <file alias="archain">res/icons/archain.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>
@@ -25,7 +25,7 @@
         <file alias="editpaste">res/icons/editpaste.png</file>
         <file alias="editcopy">res/icons/editcopy.png</file>
         <file alias="add">res/icons/add.png</file>
-        <file alias="xdna_testnet">res/icons/xdna_testnet.png</file>
+        <file alias="archain_testnet">res/icons/archain_testnet.png</file>
         <file alias="edit">res/icons/edit.png</file>
         <file alias="history">res/icons/history.png</file>
         <file alias="overview">res/icons/overview.png</file>
@@ -54,7 +54,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="xdna_logo_horizontal">res/images/xdna_logo_horizontal.png</file>
+        <file alias="archain_logo_horizontal">res/images/archain_logo_horizontal.png</file>
         <file alias="frame_blue">res/images/frame_blue.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
@@ -98,6 +98,6 @@
         <file alias="spinner-029">res/movies/spinner-029.png</file>        
     </qresource>
     <qresource prefix="/fonts">
-        <file alias="xdna_font">res/fonts/xdna_font.ttf</file>
+        <file alias="archain_font">res/fonts/archain_font.ttf</file>
     </qresource>
   </RCC>

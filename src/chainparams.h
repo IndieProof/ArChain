@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX Core developers
-// Copyright (c) 2017-2018 The XDNA Core developers
+// Copyright (c) 2017-2018 The ArCh/ain developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,7 +28,7 @@ struct CDNSSeedData {
 
 /**
  * CChainParams defines various tweakable parameters of a given instance of the
- * XDNA system. There are three: the main network on which people trade goods
+ * ACASH system. There are three: the main network on which people trade goods
  * and services, the public test network which gets reset from time to time and
  * a regression test mode which is intended for private networks only. It has
  * minimal difficulty to ensure that blocks can be found instantly.
@@ -53,8 +53,8 @@ public:
     const MessageStartChars& MessageStart() const { return pchMessageStart; }
     const std::vector<unsigned char>& AlertKey() const { return vAlertPubKey; }
 
-    const std::vector<unsigned char>& xDNADevKey() const { return vXDNADevKey; }
-    const std::vector<unsigned char>& xDNAFundKey() const { return vXDNAFundKey; }
+    const std::vector<unsigned char>& xDNADevKey() const { return vACASHDevKey; }
+    const std::vector<unsigned char>& xDNAFundKey() const { return vACASHFundKey; }
     int GetDevFee() const { return nDevFee; }
     int GetFundFee() const { return nFundFee; }
 
@@ -123,8 +123,8 @@ protected:
     MessageStartChars pchMessageStart;
     //! Raw pub key bytes for the broadcast alert signing key.
     std::vector<unsigned char> vAlertPubKey;
-    std::vector<unsigned char> vXDNADevKey;
-    std::vector<unsigned char> vXDNAFundKey;
+    std::vector<unsigned char> vACASHDevKey;
+    std::vector<unsigned char> vACASHFundKey;
     int nDevFee;
     int nFundFee;
     int nDefaultPort;

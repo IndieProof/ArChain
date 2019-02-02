@@ -1,6 +1,6 @@
 [Protocol]
-exec=xdna-qt '%u'
-protocol=xdna
+exec=archain-qt '%u'
+protocol=archain
 input=none
 output=none
 helper=true

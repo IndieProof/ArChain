@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: xdnad.service
-Upstart: xdnad.conf
-OpenRC:  xdnad.openrc
-         xdnad.openrcconf
-CentOS:  xdnad.init
+SystemD: archaind.service
+Upstart: archaind.conf
+OpenRC:  archaind.openrc
+         archaind.openrcconf
+CentOS:  archaind.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES XDNAS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ACASH&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES ACASHS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ArCh/ain</source>
+        <translation>ArCh/ain</translation>
     </message>
     <message>
-        <source>&amp;About XDNA Core</source>
-        <translation>&amp;Sobre XDNA Core</translation>
+        <source>&amp;About ArCh/ain</source>
+        <translation>&amp;Sobre ArCh/ain</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ArCh/ain</source>
+        <translation>ArCh/ain</translation>
     </message>
     <message>
-        <source>About XDNA Core</source>
-        <translation>Sobre XDNA Core</translation>
+        <source>About ArCh/ain</source>
+        <translation>Sobre ArCh/ain</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to XDNA Core.</source>
-        <translation>Benvingut a XDNA Core.</translation>
+        <source>Welcome to ArCh/ain.</source>
+        <translation>Benvingut a ArCh/ain.</translation>
     </message>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ArCh/ain</source>
+        <translation>ArCh/ain</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1132,8 +1132,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XDNA Core</source>
-        <translation>XDNA Core</translation>
+        <source>ArCh/ain</source>
+        <translation>ArCh/ain</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1292,7 +1292,7 @@
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>archain-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

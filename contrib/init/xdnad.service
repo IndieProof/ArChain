@@ -1,19 +1,19 @@
 [Unit]
-Description=XDNA's distributed currency daemon
+Description=ACASH's distributed currency daemon
 After=network.target
 
 [Service]
-User=xdna
-Group=xdna
+User=archain
+Group=archain
 
 Type=forking
-PIDFile=/var/lib/xdnad/xdnad.pid
+PIDFile=/var/lib/archaind/archaind.pid
 
-ExecStart=/usr/bin/xdnad -daemon -pid=/var/lib/xdnad/xdnad.pid \
-          -conf=/etc/xdna/xdna.conf -datadir=/var/lib/xdnad
+ExecStart=/usr/bin/archaind -daemon -pid=/var/lib/archaind/archaind.pid \
+          -conf=/etc/archain/archain.conf -datadir=/var/lib/archaind
 
-ExecStop=-/usr/bin/xdna-cli -conf=/etc/xdna/xdna.conf \
-         -datadir=/var/lib/xdnad stop
+ExecStop=-/usr/bin/archain-cli -conf=/etc/archain/archain.conf \
+         -datadir=/var/lib/archaind stop
 
 Restart=always
 PrivateTmp=true

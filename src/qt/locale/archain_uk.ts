@@ -1,223 +1,195 @@
-<TS language="tr" version="2.1">
+<TS language="uk" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Adresi ya da etiketi değiştirmek için sağ tuşa tıklayın</translation>
+        <translation>Натисніть правою кнопкою миші, щоб редагувати адресу або мітку</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Yeni bir adres oluştur</translation>
+        <translation>Створити нову адресу</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Yeni</translation>
+        <translation>Новий</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Seçili olan adresi sistem panosuna kopyala</translation>
+        <translation>Скопіювати вибрану адресу в буфер обміну</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopyala</translation>
+        <translation>Копіювати</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Seçili olan adresi listeden sil</translation>
+        <translation>Видалити вибрану адресу зі списку</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Sil</translation>
+        <translation>Видалити</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Güncel sekmedeki verileri bir dosyaya aktar</translation>
+        <translation>Експортуйтувати дані поточної вкладки у файл</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Çıkart</translation>
+        <translation>Експорт</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Kapat</translation>
+        <translation>Закрити</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Coinleri gönderecek adresi seçin</translation>
+        <translation>Виберіть адресу надсилання монет</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Coinleri Alacak adresi seçin</translation>
+        <translation>Виберіть адресу отримання монет</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Seçin</translation>
+        <translation>Вибір</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Gönderen adres</translation>
+        <translation>Адреса відправки</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Alıcı Adres</translation>
+        <translation>Адреса отримання</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan XDNA adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your ACASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші ACASH-адреси для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
     </message>
     <message>
-        <source>These are your XDNA addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan XDNA adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your ACASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Це ваші ACASH адреси для отримання платежів. Для кожної транзакції рекомендується використовувати нову адресу одержувача.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Adresi kopyala</translation>
+        <translation>Копіювати адресу</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Etiketi Kopyala</translation>
+        <translation>Копіювати мітку</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Düzelt</translation>
+        <translation>Редагувати</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Adres listesini çıkart</translation>
+        <translation>Ексортувати список адрес</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Virgül ile ayrılmış dosya(*.csv)</translation>
+        <translation>Файл, розділений комами (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Çıkartma işlemi başarısız</translation>
+        <translation>Не вдалося експортувати</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Adres listesini %1e kaydederken hata oldu.Lütfen tekrar deneyin</translation>
+        <translation>Виникла помилка при спробі зберегти список адрес у %1. Будь ласка, спробуйте ще раз.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etiket</translation>
+        <translation>Мітка</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>adres</translation>
+        <translation>Адреса</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(etiket yok)</translation>
+        <translation>(без міток)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Şifre sözcüğü Diyaloğu</translation>
+        <translation>Кодове слово</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Şifre sözcüğünüzü girin</translation>
+        <translation>Введіть кодове слово</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Yeni şifre sözcüğü</translation>
+        <translation>Нове кодове слово</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>yeni şifre sözcüğünü tekrarlayın</translation>
+        <translation>Повторіть кодове слово</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>OS hesabı tehlikeye atıldığında önemsiz para göndermeyi devre dışı bırakır. Gerçek bir güvenlik sağlamaz.</translation>
+        <translation>Для ввімкнення тривіальної відправки коштів при скомпрометуванні операційної системи. Не забезпечує реальної безпеки.</translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>Sadece anonimleştirme ve staking için</translation>
+        <translation>Лише для анонімності</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Yeni şifre sözcüğünü cüzdana girinLütfen bir şifre söcüğü kullanın &lt;br/&gt;&lt;b&gt;10 veya daha fazla karakter içeren&lt;/b&gt;veya&lt;b&gt;8 veya daha fazla kelime içeren&lt;/b&gt;</translation>
+        <translation>Введіть нове кодове слово гамамнця. &lt;br/&gt;Будь ласка, використовуйте кодове слово з &lt;b&gt;десяти і більше хаотичних символів&lt;/b&gt;, або &lt;b&gt;восьми і більше слів &lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Cüzdanı şifreleyin</translation>
+        <translation>Шифрувати гаманець</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Bu işlem, cüzdan kilidini açmak için cüzdan parolanıza ihtiyaç duyuyor.</translation>
+        <translation>Для розблокування гаманця потрібно його кодове слово.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Cüzdanı aç</translation>
+        <translation>Розблокувати гаманець</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Bu işlem, cüzdan şifresini çözmek için cüzdan parolanıza ihtiyaç duyuyor.</translation>
+        <translation>Для розшифрування гаманція потрібно його кодове слово.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>cüzdan şifresini çöz</translation>
+        <translation>Розшифрувати гаманець</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Şifreyi değiştir</translation>
+        <translation>Змінити кодове слово</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Cüzdanınıza eski ve yeni parolayı girin.</translation>
+        <translation>Введіть попереднє і нове кодове слово гаманця.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>cüzdan şifrelemesini onayla</translation>
+        <translation>Підтвердження шифрування гаманця</translation>
     </message>
     <message>
-        <source>XDNA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DNAs from being stolen by malware infecting your computer.</source>
-        <translation>XDNA şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, XDNA'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>ACASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ACASHs from being stolen by malware infecting your computer.</source>
+        <translation>ACASH зараз закриється, щоб завершити процес шифрування. Пам'ятайте, що шифрування гаманця не може повністю захистити ваші ACASH'и від крадіжки зловмисним програмним забезпеченням, що заражає ваш комп'ютер.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
+        <translation>Ви впевнені, що хочете зашифрувати Ваш гаманець?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDNA&lt;/b&gt;!</source>
-        <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ACASH&lt;/b&gt;!</source>
+        <translation>Попередження: Якщо після шифрування гаманця Ви &lt;b&gt;загубите кодове слово, то ви втратите всі Ваші ACASH'и&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Cüzdan şifrelendi</translation>
-    </message>
-    <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>Önemli: wallet dosyası ile daha önce yaptığınız yedeklemeler şifreleme sonrası yenisi ile tekrar yedeklenmelidir.Güvenlik nedenleri ile, şifrelenmemiş cüzdanınıza ait yedeklemeler yeni şifrelenmiş cüzdanoınızla birlikte kullanılmaz hale gelecektir.</translation>
-    </message>
-    <message>
-        <source>Wallet encryption failed</source>
-        <translation>Cüzdan şifrelemesi başarısız oldu</translation>
-    </message>
-    <message>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Dahili bir hata nedeniyle cüzdan şifrelemesi başarısız oldu. Cüzdanınız şifrelenmedi.</translation>
-    </message>
-    <message>
-        <source>The supplied passphrases do not match.</source>
-        <translation>Verilen parolalar uyuşmuyor.</translation>
-    </message>
-    <message>
-        <source>Wallet unlock failed</source>
-        <translation>Cüzdan kilidini açma başarısız oldu</translation>
-    </message>
-    <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>cüzdan şifre çözme işlemi için girilen parola yanlıştı.</translation>
-    </message>
-    <message>
-        <source>Wallet decryption failed</source>
-        <translation>Cüzdan şifre çözme işlemi başarısız oldu</translation>
+        <translation>Гаманець зашифровано</translation>
     </message>
     </context>
 <context>
@@ -227,7 +199,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>Unlock wallet</source>
-        <translation>Cüzdanı aç</translation>
+        <translation>Розблокувати гаманець</translation>
     </message>
     </context>
 <context>
@@ -240,7 +212,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(etiket yok)</translation>
+        <translation>(без міток)</translation>
     </message>
     </context>
 <context>
@@ -259,7 +231,7 @@
     <name>MasternodeList</name>
     <message>
         <source>Address</source>
-        <translation>adres</translation>
+        <translation>Адреса</translation>
     </message>
     </context>
 <context>
@@ -284,9 +256,6 @@
     <name>PeerTableModel</name>
     </context>
 <context>
-    <name>PrivacyDialog</name>
-    </context>
-<context>
     <name>QObject</name>
     </context>
 <context>
@@ -302,29 +271,29 @@
     <name>ReceiveRequestDialog</name>
     <message>
         <source>Address</source>
-        <translation>adres</translation>
+        <translation>Адреса</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etiket</translation>
+        <translation>Мітка</translation>
     </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etiket</translation>
+        <translation>Мітка</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(etiket yok)</translation>
+        <translation>(без міток)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>(no label)</source>
-        <translation>(etiket yok)</translation>
+        <translation>(без міток)</translation>
     </message>
 </context>
 <context>
@@ -352,26 +321,26 @@
     <name>TransactionTableModel</name>
     <message>
         <source>Address</source>
-        <translation>adres</translation>
+        <translation>Адреса</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Virgül ile ayrılmış dosya(*.csv)</translation>
+        <translation>Файл, розділений комами (*.csv)</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etiket</translation>
+        <translation>Мітка</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>adres</translation>
+        <translation>Адреса</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Çıkartma işlemi başarısız</translation>
+        <translation>Не вдалося експортувати</translation>
     </message>
     </context>
 <context>
@@ -387,17 +356,14 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>Çıkart</translation>
+        <translation>Експорт</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Güncel sekmedeki verileri bir dosyaya aktar</translation>
+        <translation>Експортуйтувати дані поточної вкладки у файл</translation>
     </message>
     </context>
 <context>
-    <name>ZXDnaControlDialog</name>
-    </context>
-<context>
-    <name>xdna-core</name>
+    <name>archain-core</name>
     </context>
 </TS>

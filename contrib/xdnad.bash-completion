@@ -1,12 +1,12 @@
-# bash programmable completion for xdnad(1) and xdna-cli(1)
+# bash programmable completion for archaind(1) and archain-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have xdnad && {
+have archaind && {
 
-# call $xdnad for RPC
-_xdna_rpc() {
+# call $archaind for RPC
+_archain_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _xdna_rpc() {
                 ;;
         esac
     done
-    $xdnad "${rpcargs[@]}" "$@"
+    $archaind "${rpcargs[@]}" "$@"
 }
 
-# Add xdna accounts to COMPREPLY
-_xdna_accounts() {
+# Add archain accounts to COMPREPLY
+_archain_accounts() {
     local accounts
-    accounts=$(_xdna_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_archain_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_xdnad() {
+_archaind() {
     local cur prev words=() cword
-    local xdnad
+    local archaind
 
-    # save and use original argument to invoke xdnad
-    # xdnad might not be in $PATH
-    xdnad="$1"
+    # save and use original argument to invoke archaind
+    # archaind might not be in $PATH
+    archaind="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _xdnad() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _xdna_accounts
+                _archain_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _xdnad() {
                 return 0
                 ;;
             move|setaccount)
-                _xdna_accounts
+                _archain_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _xdnad() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _xdna_accounts
+            _archain_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _xdnad() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($xdnad --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($archaind --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_xdna_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_archain_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _xdnad() {
     esac
 }
 
-complete -F _xdnad xdnad xdna-cli
+complete -F _archaind archaind archain-cli
 }
 
 # Local variables:

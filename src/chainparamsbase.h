@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between xdna-cli and xdnad)
- * of a given instance of the XDNA system.
+ * CBaseChainParams defines the base parameters (shared between archain-cli and archaind)
+ * of a given instance of the ACASH system.
  */
 class CBaseChainParams
 {

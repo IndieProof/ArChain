@@ -412,7 +412,7 @@ AC_C_BIGENDIAN([AC_MSG_ERROR("Big Endian not supported")])
 dnl Check for pthread compile/link requirements
 AX_PTHREAD
 
-# The following macro will add the necessary defines to xdna-config.h, but
+# The following macro will add the necessary defines to archain-config.h, but
 # they also need to be passed down to any subprojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 AC_SYS_LARGEFILE
@@ -964,7 +964,7 @@ if test x$bitcoin_enable_qt != xno; then
     AC_MSG_WARN("xgettext is required to update qt translations")
   fi
 
-  AC_MSG_CHECKING([whether to build test_xdna-qt])
+  AC_MSG_CHECKING([whether to build test_archain-qt])
   if test x$use_tests$bitcoin_enable_qt_test = xyesyes; then
     AC_MSG_RESULT([yes])
     BUILD_TEST_QT="test"
@@ -975,7 +975,7 @@ fi
 
 AM_CONDITIONAL([ENABLE_ZMQ], [test "x$use_zmq" = "xyes"])
 
-AC_MSG_CHECKING([whether to build test_xdna])
+AC_MSG_CHECKING([whether to build test_archain])
 if test x$use_tests = xyes; then
   AC_MSG_RESULT([yes])
   BUILD_TEST="test"

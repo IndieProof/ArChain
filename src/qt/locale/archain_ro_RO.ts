@@ -183,6 +183,6 @@
     </message>
     </context>
 <context>
-    <name>xdna-core</name>
+    <name>archain-core</name>
     </context>
 </TS>

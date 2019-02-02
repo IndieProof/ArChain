@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/xdna/.xdna" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/xdna/.xdna"
+if [ -d "/var/lib/archain/.archain" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/archain/.archain"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/xdnad"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/archaind"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/xdna/xdna.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/xdnad}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/xdnad.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/archain/archain.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/archaind}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/archaind.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-xdna}
-BITCOIND_GROUP=${BITCOIND_GROUP:-xdna}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/xdnad}
+BITCOIND_USER=${BITCOIND_USER:-archain}
+BITCOIND_GROUP=${BITCOIND_GROUP:-archain}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/archaind}
 
-name="XDNA Daemon"
-description="XDNA crypto-currency p2p network daemon"
+name="ACASH Daemon"
+description="ACASH crypto-currency p2p network daemon"
 
-command="/usr/bin/xdnad"
+command="/usr/bin/archaind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run xdnad."
+		eerror "ERROR: You must set a secure rpcpassword to run archaind."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"XDNA Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"ACASH Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

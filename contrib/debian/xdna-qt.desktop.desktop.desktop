@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=XDNA
-Comment=XDNA P2P Cryptocurrency
-Exec=xdna-qt %u
+Name=ACASH
+Comment=ACASH P2P Cryptocurrency
+Exec=archain-qt %u
 Terminal=false
 Type=Application
-Icon=xdna128
-MimeType=x-scheme-handler/xdna;
+Icon=archain128
+MimeType=x-scheme-handler/archain;
 Categories=Office;Finance;
-Name[ru]=xdna-qt.desktop.desktop
+Name[ru]=archain-qt.desktop.desktop
